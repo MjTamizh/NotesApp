@@ -1,0 +1,61 @@
+// notes Application 
+// this application  used to create , delete , update , read in single note
+//  all notes saved as json in the notes.json 
+
+// use this commands for dependcies and run
+// npm i for node
+// how to run the app  : node app.js  add --title "book" --body "haryportter"
+
+// Operation
+
+//  add , remove, list , read
+// import { addNote, removeNote } from "./note"
+
+// section :4
+// 1. input from the console
+// // console.log(process.argv);
+// // console.log( process.argv[2]);
+
+// 2.yargs - package
+// yargs.version
+// yargs.command
+// command
+// describe
+// builder title describe demandOption type
+//         body describe demandOption type
+// handler function
+
+
+// 3.
+// JSON : JSON.stringify ,JSON.parse 
+// Fs : writeFileSync ,readFileSync 
+
+// addNote 
+// filter ,
+//  find
+//  push
+
+// removeNote
+// filter
+
+
+// arrrowfunction
+// es6 concept is coverd
+
+// list notes
+// read notes
+
+// section : 5
+
+// debug :
+
+// console.log mini debugger 
+
+// debugger
+
+// node inspect  app.js 
+// inspect is keyword to start instance for the debug
+// chrome://inspect
+
+// debug cmd 
+// restart for the restart to localhost debug
