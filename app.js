@@ -1,27 +1,14 @@
-// 1
-// const cmd = process.argv[2];
-// // console.log(cmd);
- 
-// if (cmd === "add") {
-//     console.log('Adeed this data');
-    
-// } else if(cmd === "remove"){
-//     console.log('Removed this data');
-    
-// }
- 
-// const  thirdCmd = process.argv[3];
- 
-// console.log(thirdCmd);
- 
- 
-// 2
+
 const { default: chalk } = require("chalk");
 const yargs = require("yargs");
 const  notes  = require("./note");
+const express = require('express');
 
+const app = express();
+
+const Port = process.env.PORT || 4040;
  
-// yargs.version('11.3.0')
+
  
 // add
  
@@ -97,9 +84,14 @@ yargs.command({
   }
 })
 
+ console.log(__dirname);
  
  
 yargs.parse()
 // console.log(process.argv);
 // console.log(yargs.argv);
 // console.log(notes);
+app.listen(Port,()=>{
+  console.log('App runing in the port ' +Port );
+  
+})

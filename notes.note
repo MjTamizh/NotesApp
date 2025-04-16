@@ -1,0 +1,22 @@
+// 1
+// const cmd = process.argv[2];
+// // console.log(cmd);
+ 
+// if (cmd === "add") {
+//     console.log('Adeed this data');
+    
+// } else if(cmd === "remove"){
+//     console.log('Removed this data');
+    
+// }
+ 
+// const  thirdCmd = process.argv[3];
+ 
+// console.log(thirdCmd);
+
+
+ 
+ 
+// 2
+
+// yargs.version('11.3.0')
