@@ -91,6 +91,10 @@ yargs.parse()
 // console.log(process.argv);
 // console.log(yargs.argv);
 // console.log(notes);
+
+app.get("/",(req,res)=>{
+  res.send("Hey welcome to my NOtes application")
+})
 app.listen(Port,()=>{
   console.log('App runing in the port ' +Port );
   
